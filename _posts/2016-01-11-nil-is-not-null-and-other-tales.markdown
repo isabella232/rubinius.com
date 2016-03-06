@@ -182,7 +182,7 @@ In Rubinius, there are two types of "objects". There are objects like an Array, 
 
 There's another kind of object in Rubinius. These are called _immediate values_ because their data and their "reference" are the same thing. These are also called _tagged pointers_ because the value is essentially a memory pointer where we've set one or more "tag" bits.
 
-Values like `1`, `0xcafe`, `true`, `false`, and `nil` are immediate values, or tagged pointers, in Rubinius. This is what nil looks like as a (binary formatted) pointer value `0b11010`. If the least significant five bits of a pointer match that value, the value is considered by Rubinus to be nil.
+Values like `1`, `0xcafe`, `true`, `false`, and `nil` are immediate values, or tagged pointers, in Rubinius. This is what nil looks like as a (binary formatted) pointer value `0b11010`. If the least significant five bits of a pointer match that value, the value is considered by Rubinius to be nil.
 
 In the past, we have only ever used that precise value. In other words, all the other bits are zero. But nothing requires this, and those other bits don't need to be wasted. On 64bit architectures, this gives Rubinius approximately 2^59 values of "nil". That's more than enough for a typical Rails app, I'm sure.
 

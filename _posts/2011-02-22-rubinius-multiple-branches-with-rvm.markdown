@@ -37,7 +37,7 @@ is currently equivalent to
 
     rvm install rbx-head
 
-After we have the mainline head Rubinus branch installed, we now want to
+After we have the mainline head Rubinius branch installed, we now want to
 use the named rubies feature. This is done using the -n specifier in the
 Ruby identifier string. So for example to install our hydra branch as an
 RVM ruby with the name 'hydra' in it we do the following:

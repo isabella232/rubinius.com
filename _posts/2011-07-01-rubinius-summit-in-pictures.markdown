@@ -21,12 +21,12 @@ This is what nearly 600 shirts looks like. We've got a huge back log of people a
 ### Progress on 1.9 Support
 [![Serious @rubinius big brain nerdery happening between @brixen and @evanphx at the @farmhouse in Hollywood, CA](https://farm6.static.flickr.com/5076/5888809669_134b0d6e23_z.jpg "Serious @rubinius big brain nerdery happening between @brixen and @evanphx at the @farmhouse in Hollywood, CA")](http://flickr.com/photos/veganstraightedge/5888809669)
 
-Brian and Evan, like a couple of mad scientists, sketched out how to handle 1.9 block arguments for Rubinus 2.0.
+Brian and Evan, like a couple of mad scientists, sketched out how to handle 1.9 block arguments for Rubinius 2.0.
 
-[![A sketch of Ruby 1.9 block args in Rubinus 2.0 by @evanphx and @brixen at the @farmhouse in Hollywood, CA](https://farm6.static.flickr.com/5038/5889687428_b2f0f07f40_z.jpg "A sketch of Ruby 1.9 block args in Rubinus 2.0 by @evanphx and @brixen at the @farmhouse in Hollywood, CA    ")](http://flickr.com/photos/veganstraightedge/5889687428)
-[![A sketch of Ruby 1.9 block args in Rubinus 2.0 by @evanphx and @brixen at the @farmhouse in Hollywood, CA](https://farm7.static.flickr.com/6024/5889686740_ca7962db63_z.jpg "A sketch of Ruby 1.9 block args in Rubinus 2.0 by @evanphx and @brixen at the @farmhouse in Hollywood, CA    ")](http://flickr.com/photos/veganstraightedge/5889686740)
+[![A sketch of Ruby 1.9 block args in Rubinius 2.0 by @evanphx and @brixen at the @farmhouse in Hollywood, CA](https://farm6.static.flickr.com/5038/5889687428_b2f0f07f40_z.jpg "A sketch of Ruby 1.9 block args in Rubinius 2.0 by @evanphx and @brixen at the @farmhouse in Hollywood, CA    ")](http://flickr.com/photos/veganstraightedge/5889687428)
+[![A sketch of Ruby 1.9 block args in Rubinius 2.0 by @evanphx and @brixen at the @farmhouse in Hollywood, CA](https://farm7.static.flickr.com/6024/5889686740_ca7962db63_z.jpg "A sketch of Ruby 1.9 block args in Rubinius 2.0 by @evanphx and @brixen at the @farmhouse in Hollywood, CA    ")](http://flickr.com/photos/veganstraightedge/5889686740)
 
-Here are the sketches of 1.9 block arguments for Rubinus 2.0.
+Here are the sketches of 1.9 block arguments for Rubinius 2.0.
 
 ### One More Thing
 

@@ -11,7 +11,7 @@ Você pode compilar e executar o Rubinius a partir do código fonte. Você não 
 instalar o Rubinius para executa-lo. Abaixo você encontrará detalhes de como instalar e 
 executa-lo a partir do código fonte.
 
-O Rubinus usa o LLVM como o compilador JIT. O Rubinius depende de uma versão particular 
+O Rubinius usa o LLVM como o compilador JIT. O Rubinius depende de uma versão particular 
 do LLVM e o LLVM precisa estar compilado com o C++ RTTI (_run-time type information_) 
 habilitado. O script `configure` irá verificar automaticamente esse requerimento quando 
 este buscar a versão instalada do LLVM. Se você já tiver o LLVM instalado em sua máquina 
@@ -46,7 +46,7 @@ previlegio de _superuser_. Para instalar o Rubinius:
 
 ### Executando a partir da pasta do Código Fonte
 
-Se você planeja trabalhar diretamente no Rubinus, você deve fazer o seguinte:
+Se você planeja trabalhar diretamente no Rubinius, você deve fazer o seguinte:
 
   1. `./configure`
   2. `rake`

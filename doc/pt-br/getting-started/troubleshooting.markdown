@@ -44,7 +44,7 @@ considere executar os seguintes passos:
 
   Se você configurou o Rubinius com `--prefix`, execute `rake install`.
 	
-  Se você configurou o Rubinus com `--prefix` e renomeou o diretório de instalação após 
+  Se você configurou o Rubinius com `--prefix` e renomeou o diretório de instalação após 
   instalar o Rubinius, configure-o novamente e reinstale-o.
   
   Se você renomeou o diretório do código fonte após compilar o Rubinius, configure-o 
