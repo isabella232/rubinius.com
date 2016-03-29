@@ -55,7 +55,7 @@ should also install the `libedit-dev` package.
   * zlib-devel
   * openssl-devel
   * libedit-devel
-  * llvm-static
+  * llvm-static (llvm35-static for Fedora 23 and higher)
 
 ### FreeBSD
 
