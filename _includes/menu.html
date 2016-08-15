@@ -1,0 +1,33 @@
+<nav class="navbar navbar-inverse default navbar-static-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapsed" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img alt="Rubinius" class="img-rounded" src="/images/menu_logo.png">
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapsed">
+      <ul class="nav navbar-nav navbar-left">
+        <li><a href="http://analyst.rubinius.com">Analyst</a></li>
+        <li><a href="http://book.rubinius.com">Book</a></li>
+        <li><a href="http://compute.rubinius.com">Compute</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          {% for release in site.data.releases limit:1 %}
+            <a href="/install"><strong>Install {{ release.version }}</strong></a>
+          {% endfor %}
+        </li>
+        <li><a href="/contribute">Contribute</a></li>
+        <li><a href="https://medium.com/@rubinius">Blog</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/account">Sign in</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
