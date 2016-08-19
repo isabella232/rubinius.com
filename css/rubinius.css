@@ -97,7 +97,8 @@ blockquote {
   color: #cacaca;
 }
 
-.main-content p {
+.main-content p,
+address {
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.6;
