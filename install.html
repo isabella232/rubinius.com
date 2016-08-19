@@ -1,3 +1,114 @@
 ---
 layout: page
 ---
+
+<section>
+  <div class="full-width bottom-pad">
+    <div class="container main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="packages">Installing Packages</h1>
+
+          <p></p>
+
+          <h2 id="docker">Docker</h2>
+
+          <p>Rubinius provides <a href="https://docker.com">Docker</a> images based on Ubuntu 15.10 and 14.04. The images are automatically built on <a href="https://hub.docker.com">Docker Hub</a> and available at the <a href="https://hub.docker.com/r/rubinius/docker/builds/">Rubinius Docker organization</a>. To use the Rubinius Docker image, follow these steps:
+
+<pre>
+  <code>
+    your-shell$ docker pull rubinius/docker
+    your-shell$ docker run -it rubinius/docker bash
+  docker-shell# ruby -v
+  </code>
+</pre>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="full-width top-bottom-pad light-grey-stripe">
+    <div class="container main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="osx-homebrew">OS X Homebrew</h2>
+
+          <p>Rubinius provides <a href="http://brew.sh">Homebrew</a> binaries that should be compatible with 10.8 (Mountain Lion) and newer OS X releases. To install Rubinius on Homebrew, follow these steps:
+
+<pre>
+  <code>
+  $ brew update
+  $ brew tap rubinius/apps
+  $ brew install rubinius
+  </code>
+</pre>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="full-width top-bottom-pad">
+    <div class="container main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="ubuntu">Ubuntu</h2>
+
+          <p>Rubinius builds binaries for Ubuntu for version 14.04. These binaries are built so that they can be used on Travis with RVM. They can also be manually expanded for use with <a href="https://github.com/postmodern/chruby/">chruby</a>.</p>
+
+          <ul class="release-source">
+            {% for release in site.data.releases limit:4 %}
+              <li>
+                <p><a href="{{ site.data.urls.s3_protocol }}{{ site.data.urls.s3_binaries_prefix }}{{ site.data.urls.s3_base_url }}{{ site.data.urls.s3_ubuntu_path }}rubinius-{{ release.version }}.tar.bz2">
+                  {{ release.version }} ({{ release.date }})</a></p>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="full-width top-bottom-pad light-grey-stripe">
+    <div class="container main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="other">Other Unix/Linux</h2>
+
+          <p>We would like to assist building packages and binaries for other Unix/Linux systems. We are removing the Ruby build dependency to make the process of building Rubinius much easier. If you'd like to help build Rubinius binaries or packages, join us in the <a href="https://gitter.im/rubinius/rubinius">Rubinius Gitter channel</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="full-width top-bottom-pad">
+    <div class="container main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="source-code">Source Code</h2>
+
+          <p>Source code tarballs are available for the following releases:</p>
+
+          <ul class="release-source">
+            {% for release in site.data.releases limit:4 %}
+              <li>
+                <p><a href="{{ site.data.urls.s3_protocol }}{{ site.data.urls.s3_releases_prefix }}{{ site.data.urls.s3_base_url }}{{ site.data.urls.s3_release_path }}rubinius-{{ release.version }}.tar.bz2">
+                  {{ release.version }} ({{ release.date }})</a></p>
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

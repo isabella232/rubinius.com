@@ -1,2 +1,7 @@
 ---
-s3_base_url: "https://rubinius-releases-rubinius-com.s3.amazonaws.com/rubinius-"
+s3_protocol: "https://"
+s3_releases_prefix: "rubinius-releases-rubinius-com"
+s3_binaries_prefix: "rubinius-binaries-rubinius-com"
+s3_base_url: ".s3.amazonaws.com"
+s3_ubuntu_path: "/ubuntu/14.04/x86_64/"
+s3_release_path: "/"
