@@ -130,6 +130,10 @@ address {
   color: #444;
 }
 
+.contribute-heading {
+  text-align: left;
+}
+
 .center-heading {
   text-align: center;
 }
