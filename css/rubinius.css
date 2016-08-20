@@ -73,6 +73,11 @@ blockquote {
   padding: 0 0 6rem 0;
 }
 
+.menu-logo {
+  width: 30px;
+  height: 30px;
+}
+
 .light-grey-stripe {
   background-color: #f5f6f7;
 }
