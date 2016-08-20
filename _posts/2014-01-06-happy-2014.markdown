@@ -1,0 +1,6 @@
+---
+title: Happy 2014!
+author: Brian Shirai
+redirect_to:
+  - https://github.com/rubinius/rubinius-archive/blob/cf54187d421275eec7d2db0abd5d4c059755b577/_posts/2014-01-06-happy-2014.markdown
+---

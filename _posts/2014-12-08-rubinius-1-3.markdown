@@ -1,0 +1,6 @@
+---
+title: Rubinius 1.3+
+author: Sophia Shao
+redirect_to:
+  - https://github.com/rubinius/rubinius-archive/blob/cf54187d421275eec7d2db0abd5d4c059755b577/_posts/2014-12-08-rubinius-1-3.markdown
+---

@@ -5,6 +5,10 @@ lsi: false
 permalink: pretty
 source: .
 destination: ./public
+gems:
+  - jekyll-redirect-from
+whitelist:
+  - jekyll-redirect-from
 exclude:
   - Rakefile
   - README.md
