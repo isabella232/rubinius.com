@@ -1,14 +1,14 @@
 $(document).ready(function() {
   $(window).scroll(function(){
     $('.index-main-background').each(function(i){
-      var margin = 80;
+      var margin = 60;
       var h = $('.index-main-background h1').position().top + margin;
       var w = $(window).scrollTop();
       var distance = h - w;
 
       if(distance > 0) {
         var target = 0.25;
-        var top = 1;
+        var top = 0.9;
         var bottom = 0.25;
 
         var percent = distance / h;

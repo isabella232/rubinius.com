@@ -93,7 +93,7 @@ address {
 
 .index-main-background {
   background: #000;
-  background-image: url(/images/index-main-background.png), linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.25));
+  background-image: url(/images/index-main-background.png), linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.25));
   background-position: center center !important;
   background-size: 100% !important;
   background-attachment: fixed !important;
