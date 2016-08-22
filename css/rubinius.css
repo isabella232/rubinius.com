@@ -61,6 +61,10 @@ blockquote {
   display: block;
 }
 
+.navbar-default {
+  margin-bottom: 0;
+}
+
 .full-width {
   width: 100%;
 }
@@ -76,6 +80,59 @@ blockquote {
 .menu-logo {
   width: 30px;
   height: 30px;
+}
+
+.main-content p,
+address {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.6;
+  margin: 0 0 1rem 0;
+  color: #777;
+}
+
+.index-main-background {
+  background: #000;
+  background-image: url(/images/index-main-background.png), linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.25));
+  background-position: center center !important;
+  background-size: 100% !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.index-lede-1 {
+  padding-top: 25vh;
+  min-height: 80vh;
+}
+
+.index-lede-1 h1 {
+  font-size: 5.5rem;
+  font-weight: 100;
+  margin-bottom: 2.5em;
+}
+
+.index-lede-1 h1,
+.index-lede-1 p,
+.index-lede-2 p {
+  text-shadow: 0 0 1px rgba(0,0,0,0.5);
+  color: white;
+  text-align: center;
+}
+
+.index-lede-1 p,
+.index-lede-2 p {
+  font-size: 2.4rem;
+  margin-bottom: 2.5em;
+}
+
+.index-lede-2 {
+  margin-top: 3rem;
+  padding-top: 0;
+}
+
+p.index-lede-question {
+  font-weight: 400;
 }
 
 .light-grey-stripe {
@@ -100,15 +157,6 @@ blockquote {
 
 .navbar-inverse .navbar-nav li a {
   color: #cacaca;
-}
-
-.main-content p,
-address {
-  font-size: 2rem;
-  font-weight: 300;
-  line-height: 1.6;
-  margin 0 0 1rem 0;
-  color: #777;
 }
 
 .bold-dot {
