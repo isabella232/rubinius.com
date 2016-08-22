@@ -93,7 +93,7 @@ address {
 
 .index-main-background {
   background: #000;
-  background-image: url(/images/index-main-background.png), linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.25));
+  background-image: url(/images/index-main-background.png), linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.25));
   background-position: center center !important;
   background-size: 100% !important;
   background-attachment: fixed !important;
@@ -103,7 +103,7 @@ address {
 
 .index-lede-1 {
   padding-top: 25vh;
-  min-height: 80vh;
+  min-height: 100vh;
 }
 
 .index-lede-1 h1 {
