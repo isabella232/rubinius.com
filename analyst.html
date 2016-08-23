@@ -1,0 +1,186 @@
+---
+layout: page
+title: "Analyst - Know Your App"
+---
+
+<div id="analyst">
+<section>
+  <div class="analyst-topbar"></div>
+
+  <div class="analyst-main">
+    <div class="container content-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 id="rubinius-analyst">{{page.title}}</h1>
+
+          <p><span class="analyst-em">What part of your app do you fear most? What's holding your app back? How can you improve your app with less time, cost, and effort?</span></p>
+
+          <p>What if you could observe what your app does in production, instead of guessing? What if you had your own <span class="analyst-em">personal application analyst</span>?</p>
+
+          <p><span class="analyst-summary">Agentless &middot; Proactive &middot; Adaptive &middot; Intelligent Analysis</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="analyst-cta-row">
+    <div class="container content-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="analyst-tagline">Work Less, Know More</h2>
+          <div class="analyst-cta">
+            <p><a class="analyst-cta-button" href="#sign-up">Get Analyst</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="metrics-row">
+    <div class="container content-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="metrics">Metrics</h2>
+
+          <blockquote cite="http://zapatopi.net/kelvin/quotes/">
+            To measure is to know.
+            <span class="quote-attribution">&mdash; Lord Kelvin</span>
+          </blockquote>
+
+          <p>Two things complicate app metrics: First, if everything is important, then nothing is. Second, measuring has a cost.</p>
+
+          <p>Rather than tentacles of foreign code worming through your app, as the typical agent approach uses, <span class="analyst-name">Analyst</span> observes every aspect of your code while it's running and can focus on the parts you think are important.</p>
+
+          <p>And, in most cases, <span class="analyst-name">Analyst</span> adds <span class="analyst-extra-em">zero runtime cost</span>.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="exception-notification-row">
+    <div class="container content-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="exception-notification">Exception Notification</h2>
+          <p>Knowing that your application has an error in production is good. <span class="analyst-em">Preventing errors in production is better.</span></p>
+
+          <p><span class="analyst-name">Analyst</span> knows the context of your application errors and works to alert you about problems before they get to production.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="performance-row">
+    <div class="container content-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="performance-profiling">Performance Profiling</h2>
+          <p>There is only one places that your app's performance matters and that's <span class="analyst-em">in production</span>.</p>
+
+          <p>Relying on benchmarks and profiling in an artifical environment to tell you about your app's performance is like sampling a butter and flour mixture to see how a cake will taste when it's baked.</p>
+
+          <p>Always know how your app is performing in production with <span class="analyst-name">Analyst</span>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="analysis-row">
+    <div class="container analysis-container">
+      <div class="row">
+        <div class="col-md-6 col-sm-12">
+          <h2 id="data-flow-analysis">Data Flow Analysis</h2>
+          <p>Your app processes data, and the data flow creates a graph that is distinct from the call graph and object graph.</p>
+
+          <p>One of the more troublesome bits of data is <code>nil</code>. Where do these <code>nil</code> values arise and why do they always seem to pop up in production?</p>
+
+          <p>Never again wonder where <code>nil</code> values are in your app.</p>
+        </div>
+
+        <div class="col-md-6 col-sm-12">
+          <h2 id="code-analysis">Code Analysis</h2>
+          <p>How does your app code interact? How does that interaction change over time?</p>
+
+          <p>Static analysis and code churn metrics can provide valuable information. But in a highly dynamic language, app behavior is potentially invisible to these methods.</p>
+
+          <p>With <span class="analyst-name">Analyst</span>, your app is an open book.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="analyst-signup-row">
+    <div class="container content-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="sign-up">Sign Up For Analyst</h2>
+          <div class="analyst-signup">
+            {% include analyst_signup.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container content-container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 id="code-coverage">Code Coverage</h2>
+        <p>What app code is <span class="analyst-em">actually running</span> in production?</p>
+
+        <p>Did you just deploy code to production that has no test coverage?</p>
+
+        <p>Are developers gingerly working around some particularly complex area in your app? Is that feature really used in production? What code does it interact with?</p>
+
+        <p>Reluctant to update a critical gem for fear of some poorly tested app code breaking?</p>
+
+        <p><span class="analyst-name">Analyst</span> helps you work confidently with code because it sees exactly what code is running and how it interacts.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="code-instrumentation-row">
+    <div class="container content-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 id="code-instrumentation">Code Instrumentation</h2>
+          <p>What can you do when you have a difficult production error and need to shine a spotlight on a troublesome part of your app?</p>
+
+          <p><span class="analyst-name">Analyst</span> can inject instrumentation <span class="analyst-em">in production</span> that can help you understand your app's behavior, but is guaranteed to <span class="analyst-em">not change your app's semantics</span>.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="last-call-row">
+    <div class="container content-container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Know Your App</h2>
+          <div class="analyst-cta">
+            <p><a class="analyst-cta-button" href="#sign-up">Get Analyst</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
