@@ -103,6 +103,10 @@ address {
   color: #fff;
 }
 
+.index-second-background {
+  background: rgba(0, 150, 178, 0.8);
+}
+
 .index-lede-1 {
   padding-top: 25vh;
   min-height: 100vh;
@@ -124,20 +128,17 @@ address {
 
 .index-lede-1 p,
 .index-lede-2 p {
-  font-size: 2.4rem;
-  margin-bottom: 2.5em;
-}
-
-.index-lede-2 {
-  margin-top: 3rem;
-  padding-top: 0;
+  font-size: 2.8rem;
+  margin-bottom: 4.2rem;
 }
 
 p.index-lede-question {
-  font-weight: 400;
+  font-weight: bolder;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
-.light-grey-stripe {
+.alternating-row {
   background-color: #f5f6f7;
 }
 
