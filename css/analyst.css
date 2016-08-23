@@ -1,23 +1,26 @@
 #analyst .analyst-topbar {
   background-color: #ffef5b;
-  min-height: 0.2em;
+  min-height: 3px;
 }
 
-#analyst h1 {
-  color: #fff;
-  text-align: center;
-  padding-top: 2.5em;
-  padding-bottom: 1.5em;
-  font-size: 3.2em;
-  font-weight: 300;
+h1.analyst-main-title {
+  font-size: 4.5em;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 1.5em;
+  margin-bottom: 0.25em;
+  color: white;
 }
 
-#analyst h2 {
+h2.analyst-main-sub-title {
   text-align: center;
-  padding-top: 1.5em;
-  padding-bottom: 1em;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
   font-size: 3em;
   font-weight: 300;
+  color: white;
 }
 
 #analyst p {
