@@ -23,6 +23,16 @@ h2.analyst-main-sub-title {
   color: white;
 }
 
+.section-head {
+  text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  font-size: 3em;
+  font-weight: 300;
+}
+
 #analyst p {
   font-size: 1.5em;
   font-weight: 300;
@@ -45,10 +55,12 @@ h2.analyst-main-sub-title {
 }
 
 #analyst .performance-row {
+  padding-top: 1.5em;
   padding-bottom: 4em;
 }
 
 #analyst .analysis-row {
+  padding-top: 1.5em;
   background-color: #ffefb1; /* #dfdfdf; */
   padding-bottom: 4em;
 }
@@ -165,6 +177,7 @@ h2.analyst-main-sub-title {
 }
 
 #analyst .metrics-row {
+  padding-top: 1.5em;
   padding-bottom: 3em;
 }
 
@@ -200,6 +213,10 @@ h2.analyst-main-sub-title {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 3em;
+}
+
+#analyst .code-coverage-row {
+  margin-top: 1.5em;
 }
 
 #analyst .last-call-row {
