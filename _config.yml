@@ -19,4 +19,5 @@ exclude:
   - ./public
   - ./stylesheets/*.scss
   - ./drafts
+  - ./vendor
 port: 9876
