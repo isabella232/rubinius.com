@@ -1,5 +1,7 @@
 language: ruby
-ruby: 2.2.0
+rvm: 2.3.0
+before_script:
+- travis_retry bundle install
 script: bundle exec jekyll build
 branches:
   only:
