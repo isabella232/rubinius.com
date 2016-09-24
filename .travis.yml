@@ -1,5 +1,7 @@
 language: ruby
-rvm: 2.3.0
+sudo: required
+dist: trusty
+rvm: 2.3.1
 before_script:
 - travis_retry bundle install
 script: bundle exec jekyll build
