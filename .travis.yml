@@ -13,7 +13,7 @@ branches:
   - "/^v\\d+\\./"
 after_success:
 - ./scripts/aws_credentials.sh
-- aws s3 sync public/ s3://public-rubinius-com --delete
+- aws s3 sync public/ s3://public-rubinius-com --delete --region us-west-2
 notifications:
   email: false
   irc:
