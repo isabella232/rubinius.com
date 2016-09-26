@@ -3,21 +3,10 @@ url: http://rubinius.com
 safe: true
 lsi: false
 permalink: pretty
-source: .
+source: ./source
 destination: ./public
 gems:
   - jekyll-redirect-from
 whitelist:
   - jekyll-redirect-from
-exclude:
-  - Rakefile
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - CNAME
-  - .gitignore
-  - ./public
-  - ./stylesheets/*.scss
-  - ./drafts
-  - ./vendor
 port: 9876
