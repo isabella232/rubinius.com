@@ -8,7 +8,7 @@ branches:
   - master
   - "/^v\\d+\\./"
 after_success:
-- if [ $TRAVIS_BRANCH == $TRAVIS_TAG ]; then echo running deploy; fi
+  - AWS_ACCESS_KEY_ID=$(AWS_ACCESS_KEY_ID) AWS_SECRET_ACCESS_KEY=$(AWS_SECRET_ACCESS_KEY) aws s3 sync public/ s3://public-rubinius-com --delete
 notifications:
   email: false
   irc:
@@ -22,3 +22,7 @@ notifications:
     on_success: always
     on_failure: always
     on_start: always
+env:
+  global:
+  - secure: O1roTjPX2hT8fGahkAhw8T5ZL1cg5tEqDH/rtIxbF9QK3uGxaCCMm/lCmHPr6ZuruAXymcmKSJ5YT8+kkcazwlv3AD7CRMH/VpYPrGNqE7II0rFHlP+6BsMs1jLFeV/HvyTH4Gdp06NB93y+/0HOXxqCPKFw68PftypxNSjjUo0=
+  - secure: H7gU0K/7nkSDtARTKeBZlYxUXusNrFJ7Hg+jjzHtjSIqnDCMlKVjbkuItCGiRXVIdMDL0jYuoZfErziSp1bH7RRzvR4j5bB1YqX/GVfwJwjFJbMrC4rRCGt18mcvEpjWPcI3TLjb+OmaylyqSbAiCgIAHN/UJBqvn/Nnlu3nBcY=
