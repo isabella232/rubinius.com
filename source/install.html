@@ -3,6 +3,22 @@ layout: page
 ---
 
 <section>
+  <div class="full-width top-pad">
+    <div class="container main-content">
+      <div class="row">
+        <div class="col-md-12">
+          <p><strong>The current Rubinius release is version
+            {% for release in site.data.releases limit:1 %}
+              {{ release.version }}.
+            {% endfor %}
+            If you are <a href="https://github.com/rubinius/rubinius/issues/">filing an issue</a>, please ensure you are running this version.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
   <div class="full-width bottom-pad">
     <div class="container main-content">
       <div class="row">
