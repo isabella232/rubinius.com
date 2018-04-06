@@ -5,7 +5,7 @@ lsi: false
 permalink: pretty
 source: ./source
 destination: ./public
-gems:
+plugins:
   - jekyll-redirect-from
 whitelist:
   - jekyll-redirect-from
