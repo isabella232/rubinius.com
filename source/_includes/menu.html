@@ -9,25 +9,5 @@
         <img alt="Rubinius" class="img-rounded menu-logo" src="/images/menu_logo_white_black.png">
       </a>
     </div>
-
-    <div class="collapse navbar-collapse" id="navbar-collapsed">
-      <ul class="nav navbar-nav navbar-left">
-        <li><a href="/analyst">Analyst</a></li>
-        <li><a href="/book">Book</a></li>
-        <li><a href="/compute">Compute</a></li>
-      </ul>
-
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          {% for release in site.data.releases limit:1 %}
-            <a href="/install"><strong>Install {{ release.version }}</strong></a>
-          {% endfor %}
-        </li>
-        <li><a href="/contribute">Contribute</a></li>
-        <li><a href="https://medium.com/@rubinius">Blog</a></li>
-        <li><a href="/about">About</a></li>
-        <li><a href="/account">Sign in</a></li>
-      </ul>
-    </div>
   </div>
 </nav>

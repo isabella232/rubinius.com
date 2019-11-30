@@ -125,8 +125,10 @@ address {
 .index-lede-1 h1,
 .index-lede-1 p,
 .index-lede-2 p {
-  text-shadow: 0 0 1px rgba(0,0,0,0.5);
-  color: white;
+  /* text-shadow: 0 0 1px rgba(0,0,0,0.5); */
+  /* color: white; */
+  color: black;
+  weight: bold;
   text-align: center;
 }
 
