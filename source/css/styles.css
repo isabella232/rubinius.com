@@ -122,7 +122,12 @@ address {
   margin-bottom: 2.5em;
 }
 
-.index-lede-1 h1,
+.index-lede-1 h1 {
+  color: black;
+  weight: bold;
+  text-align: center;
+}
+
 .index-lede-1 p,
 .index-lede-2 p {
   /* text-shadow: 0 0 1px rgba(0,0,0,0.5); */
